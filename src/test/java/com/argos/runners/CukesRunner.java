@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
         glue = "com/argos/stepDefinitions",
-        dryRun = false
-//        tags = "@api"
+        dryRun = false,
+        tags = "@wip"
 
 
 )
