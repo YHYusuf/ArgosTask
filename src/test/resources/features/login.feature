@@ -1,5 +1,5 @@
 
-Feature: Login
+Feature: Login with creds
 
   Scenario: Login with valid credentials
     Given the user is on login page
