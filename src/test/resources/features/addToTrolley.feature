@@ -2,8 +2,8 @@ Feature: Adding item to trolley
 
   Background: User has already logged in
     Given the user is on login page
-    When the user navigates to "Account" page
-    And fills fields with valid credentials
+#    When the user navigates to "Account" page
+#    And fills fields with valid credentials
     Then the user should land on homepage
 @wip
   Scenario: User should be able to add product to trolley
